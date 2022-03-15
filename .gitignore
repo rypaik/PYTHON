@@ -1,2 +1,5 @@
 python_inbox/
 **/.DS_Store
+**/.history
+.DS_Store
+.history/
