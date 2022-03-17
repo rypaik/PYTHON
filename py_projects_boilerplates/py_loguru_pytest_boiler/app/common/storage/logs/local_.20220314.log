@@ -1,0 +1,16 @@
+log    2022-03-14 15:10:01,237 INFO   thread:4334912896 - message
+log    2022-03-14 15:10:24,676 INFO   thread:4373382528 - hello world
+log    2022-03-14 21:52:54,957 INFO   thread:4376151424 - this is the message
+log    2022-03-14 21:58:09,211 INFO   thread:4309435776 - message
+log    2022-03-14 21:58:24,807 INFO   thread:4373136768 - message
+log    2022-03-14 21:58:47,418 INFO   thread:4374136192 - message
+log    2022-03-14 21:58:54,327 INFO   thread:4366271872 - message
+log    2022-03-14 21:59:27,951 INFO   thread:4306503040 - message
+log    2022-03-14 22:01:32,982 INFO   thread:4372710784 - message
+log    2022-03-14 22:03:27,807 INFO   thread:4300211584 - message
+log    2022-03-14 22:03:35,375 INFO   thread:4307338624 - message
+log    2022-03-14 22:03:48,934 INFO   thread:4368565632 - message
+log    2022-03-14 22:03:55,407 INFO   thread:4339271040 - message
+log    2022-03-14 22:04:12,341 INFO   thread:4366058880 - message
+log    2022-03-14 22:04:38,580 INFO   thread:4334749056 - message
+log    2022-03-14 22:05:20,486 INFO   thread:4334323072 - message

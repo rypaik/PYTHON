@@ -1,0 +1,14 @@
+attrs==21.4.0
+colorama==0.4.4
+commonmark==0.9.1
+iniconfig==1.1.1
+packaging==21.3
+pluggy==1.0.0
+py==1.11.0
+Pygments==2.8.0
+pyparsing==3.0.7
+pytest==7.1.0
+python-dotenv==0.15.0
+rich==9.12.0
+tomli==2.0.1
+typing-extensions==3.7.4.3
