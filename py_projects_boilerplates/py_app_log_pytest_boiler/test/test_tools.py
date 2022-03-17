@@ -2,15 +2,17 @@ import os
 import sys
 # import unittest
 import pytest
+
 testdir = os.path.dirname(__file__)
 srcdir = '../app'
 appdir = os.path.abspath(os.path.join(testdir, srcdir))
 sys.path.insert(0, appdir)
 
-# importar aquí librerías locales (considerar si está en common o dentro de un módulo en el directorio modules)
+# import local libraries here (consider whether it is on common or within a module in the modules directory)
 from modules.hello_world.tools.tools import say_hello
 
-# para poder acceder a los directorios de app
+
+# accessing the /app directory
 os.chdir(appdir)
 
 # class TestTools(unittest.TestCase):
@@ -29,7 +31,7 @@ def test_say_hello():
     r = say_hello('message')
     assert isinstance(r, str)
     assert isinstance(r, int)
- 
+ nrw
 def test_something():
     assert(True)
 

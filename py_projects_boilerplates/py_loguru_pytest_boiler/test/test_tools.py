@@ -2,15 +2,19 @@ import os
 import sys
 # import unittest
 import pytest
+
 testdir = os.path.dirname(__file__)
 srcdir = '../app'
 appdir = os.path.abspath(os.path.join(testdir, srcdir))
 sys.path.insert(0, appdir)
 
-# importar aquí librerías locales (considerar si está en common o dentro de un módulo en el directorio modules)
-from modules.hello_world.tools.tools import say_hello
 
-# para poder acceder a los directorios de app
+
+from modules.hello_world.tools.tools import say_hello
+from common.tools.loguru_logging  import func
+from _pytest.logging import caplog as _caplog
+
+#accessing app dir
 os.chdir(appdir)
 
 # class TestTools(unittest.TestCase):
@@ -32,6 +36,16 @@ def test_say_hello():
  
 def test_something():
     assert(True)
+    print("test_something ran")
+    
+def test_func(caplog):
+    # loguru_logging.func()
+    func()
+    assert("This is a log message." in caplog.text)
+        
 
 if __name__ == '__main__':
     test_say_hello()
+    test_something()
+    test_func(_caplog)
+    # print(caplog.text)
