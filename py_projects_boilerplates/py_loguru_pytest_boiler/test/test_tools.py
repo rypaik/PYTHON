@@ -11,7 +11,11 @@ sys.path.insert(0, appdir)
 
 
 from modules.hello_world.tools.tools import say_hello
-from common.tools.loguru_logging  import func
+
+# change the here the function to test
+from modules.pytest_mod.loguru_logging import func
+# from common.tools.loguru_logging  import func
+
 from _pytest.logging import caplog as _caplog
 
 #accessing app dir

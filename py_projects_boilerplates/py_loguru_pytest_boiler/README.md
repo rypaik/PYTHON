@@ -25,3 +25,18 @@ Base Boilerplate - Jonathan Serrano - https://github.com/jonaths/minimum-python
    ## TESTING
    in /app or /
    >>> pytest
+
+
+
+## WRITING FUNCTIONS IN MODULE FOLDER
+./modules/<name of moduels>/ tools/<modules and function>.py to test
+
+## WRITING TEST
+write file <test_module>.py in ./test
+
+
+
+/conftest.py  - Moves caplog from pytest into loguru
+
+1. write pytest test in /test folder
+2. 
