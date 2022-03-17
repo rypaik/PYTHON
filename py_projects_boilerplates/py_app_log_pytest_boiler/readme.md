@@ -23,5 +23,5 @@ Base Boilerplate - Jonathan Serrano - https://github.com/jonaths/minimum-python
    `python cmd_hello_world.py --message "hello world"`
 
    ## TESTING
-   in /app
+   in /app or /
    >>> pytest

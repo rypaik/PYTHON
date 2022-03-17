@@ -35,4 +35,3 @@ def test_something():
 
 if __name__ == '__main__':
     test_say_hello()
-    t
