@@ -31,7 +31,7 @@ def test_say_hello():
     r = say_hello('message')
     assert isinstance(r, str)
     assert isinstance(r, int)
- nrw
+ 
 def test_something():
     assert(True)
 
