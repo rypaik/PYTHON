@@ -12,7 +12,7 @@ def cpu_bound_job(job_id, num):
     duration = time.time() - start_job
     print(f"CPU-bound sub-job {job_id} finished in {duration:.2f} seconds.")
 
-@profile
+#@profile
 def run_with_threads(n_jobs, num):
     threads = []
     for _id in range(n_jobs):
