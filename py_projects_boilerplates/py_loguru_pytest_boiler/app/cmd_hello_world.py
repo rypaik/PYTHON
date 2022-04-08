@@ -1,7 +1,7 @@
 import argparse
 
 import config
-from common.tools.lg import Logger
+# from common.tools.lg import Logger
 from config import console
 from modules.hello_world.tools.tools import say_hello
 
