@@ -19,11 +19,13 @@ arr=[[0 for i in range(m)] for j in range(n)]
 print("Time taken is :",time.time()-starttime)
 
 # one-liner with timeit_plus decorator
-from timeit_plus import tplus
+from ptimeit import timethis, Timer
 
-@tplus()
+@timethis(name="This function has taken: :")
 def fibo_oneliner():
     n,m=9999,9999
     arr=[[0 for i in range(m)] for j in range(n)]
     # print(arr)
     # print("Time taken is :",time.time()-starttime)
+
+Timer.run()
