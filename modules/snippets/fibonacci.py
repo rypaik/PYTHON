@@ -8,6 +8,8 @@
 
 # Fibonacci Series
 # [Source](https://www.educba.com/fibonacci-series-in-python/)
+# [How to implement the Fibonacci sequence in Python](https://www.educative.io/edpresso/how-to-implement-the-fibonacci-sequence-in-python)
+
 
 # Finding nth Fib Number
 def find_fib_num(m):
