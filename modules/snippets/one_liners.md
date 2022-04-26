@@ -1,8 +1,1 @@
-# creating array of zeroes
-
-import time
-starttime = time.time()
-n,m=9999,9999
-arr=[]
-for
-
+[One liners that run faster](https://python.plainenglish.io/do-python-one-liners-really-make-your-code-faster-fd5f17a25b0a)
