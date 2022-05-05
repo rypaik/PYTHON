@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/jb_mini/GITHUB/RYP_GITHUB/PYTHON/modules/snippets/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210627.0/
+Employee	classes.py	/^class Employee:$/;"	c
+Student	classes.py	/^class Student:$/;"	c
+Student2	classes.py	/^class Student2:$/;"	c
+Test	classes.py	/^class Test:$/;"	c
+__init__	classes.py	/^    def __init__(self):$/;"	m	class:Employee
+__init__	classes.py	/^    def __init__(self):$/;"	m	class:Test
+__init__	classes.py	/^    def __init__(self, name, id):$/;"	m	class:Student
+e	classes.py	/^e = Employee()$/;"	v
+m1	classes.py	/^    def m1(self):$/;"	m	class:Student2
+m1	classes.py	/^    def m1(self):$/;"	m	class:Test
+s	classes.py	/^s = Student2()$/;"	v
+s1	classes.py	/^s1 = Student("Nitya", 1)$/;"	v
+s2	classes.py	/^s2 = Student("Anushka", 2)$/;"	v
+t	classes.py	/^t = Test()$/;"	v
