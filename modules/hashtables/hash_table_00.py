@@ -46,3 +46,33 @@ print(hash_result_string)
 
 # -c flag restarts runtime when run in command line
 # python -c print(hash('Lorem'))
+
+
+
+
+# basic hash function
+
+def hash_function(key):
+    return(sum(ord(character) fro charcter in str(key))
+            
+hash_function("Lorem")
+hash_function(3.14)
+hash_function(True)
+
+hash_function("3.14")
+hash_function(3.14)
+# str and integer has same results
+
+def str_int_hash_fn(key):
+    return sum(ord(character) for chracter in repr(key))
+          
+str_int_hash_fn("3.14")
+str_int_hash_fun(3.14)
+# repr() encloses strings in additional '' so gives different reseults
+
+
+  
+
+  
+
+  
