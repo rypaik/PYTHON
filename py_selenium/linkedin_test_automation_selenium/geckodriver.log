@@ -35,3 +35,161 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:52417/devtools/browser/32ba6c52-7007-40ce-a4c5-524c56876be1
 UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
 1659000745987	Marionette	INFO	Stopped listening on port 52426
+1659001253324	geckodriver	INFO	Listening on 127.0.0.1:53240
+1659001253851	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53241" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileaKrxst"
+2022-07-28 02:40:54.393 plugin-container[19975:11557836] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:40:54.393 plugin-container[19975:11557836] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659001254405	Marionette	INFO	Marionette enabled
+1659001254433	Marionette	INFO	Listening on port 53248
+2022-07-28 02:40:54.434 plugin-container[19975:11557836] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:40:54.434 plugin-container[19975:11557836] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:40:54.435 plugin-container[19975:11557848] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:40:54.435 plugin-container[19975:11557848] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:53241
+Read port: 53248
+1659001254635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileaKrxst/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53241/devtools/browser/b57f86bf-fcb4-47c6-850a-f77086116d7e
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1659001257124	Marionette	INFO	Stopped listening on port 53248
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1659001361280	geckodriver	INFO	Listening on 127.0.0.1:53474
+1659001361804	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53475" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileFtqudY"
+1659001362353	Marionette	INFO	Marionette enabled
+2022-07-28 02:42:42.358 plugin-container[20320:11559825] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:42:42.359 plugin-container[20320:11559825] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:42:42.391 plugin-container[20320:11559825] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:42:42.391 plugin-container[20320:11559825] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:42:42.392 plugin-container[20320:11559845] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:42:42.392 plugin-container[20320:11559845] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659001362393	Marionette	INFO	Listening on port 53482
+WebDriver BiDi listening on ws://localhost:53475
+Read port: 53482
+1659001362815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileFtqudY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53475/devtools/browser/2612bf91-9c53-4de6-8af1-200a23d92bcf
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1659001365495	Marionette	INFO	Stopped listening on port 53482
+1659001394152	geckodriver	INFO	Listening on 127.0.0.1:53593
+1659001394671	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53594" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileudzQYj"
+1659001395222	Marionette	INFO	Marionette enabled
+2022-07-28 02:43:15.232 plugin-container[20440:11560687] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:43:15.233 plugin-container[20440:11560687] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:43:15.254 plugin-container[20440:11560687] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:43:15.254 plugin-container[20440:11560687] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:43:15.254 plugin-container[20440:11560689] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:43:15.255 plugin-container[20440:11560689] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659001395255	Marionette	INFO	Listening on port 53601
+WebDriver BiDi listening on ws://localhost:53594
+Read port: 53601
+1659001395645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileudzQYj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53594/devtools/browser/d82ff2d5-f737-46f7-bb40-b32ab9550bc4
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1659001398007	Marionette	INFO	Stopped listening on port 53601
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1659001418466	geckodriver	INFO	Listening on 127.0.0.1:53661
+1659001418984	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53662" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofilexnytgd"
+1659001419413	Marionette	INFO	Marionette enabled
+1659001419487	Marionette	INFO	Listening on port 53669
+WebDriver BiDi listening on ws://localhost:53662
+Read port: 53669
+2022-07-28 02:43:39.590 plugin-container[20544:11561595] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:43:39.591 plugin-container[20544:11561595] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:43:39.608 plugin-container[20544:11561595] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:43:39.608 plugin-container[20544:11561595] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:43:39.610 plugin-container[20544:11561628] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:43:39.610 plugin-container[20544:11561628] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659001420058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofilexnytgd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53662/devtools/browser/68108161-ab5f-4e4c-97ed-dba52f1dbff9
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1659001422371	Marionette	INFO	Stopped listening on port 53669
+1659002104441	geckodriver	INFO	Listening on 127.0.0.1:54862
+1659002104958	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54863" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileVccy5l"
+1659002105862	Marionette	INFO	Marionette enabled
+2022-07-28 02:55:05.906 plugin-container[22651:11576588] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:55:05.907 plugin-container[22651:11576588] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659002105920	Marionette	INFO	Listening on port 54870
+2022-07-28 02:55:05.926 plugin-container[22651:11576588] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:55:05.926 plugin-container[22651:11576588] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:54863
+2022-07-28 02:55:05.928 plugin-container[22651:11576609] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:55:05.928 plugin-container[22651:11576609] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 54870
+1659002106320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileVccy5l/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54863/devtools/browser/ad2b01ca-4810-42ea-b357-32ea45e7d597
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://the-internet.herokuapp.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://the-internet.herokuapp.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659002110418	Marionette	INFO	Stopped listening on port 54870
+1659002153018	geckodriver	INFO	Listening on 127.0.0.1:54985
+1659002153532	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54986" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileJhFpOY"
+2022-07-28 02:55:54.065 plugin-container[22883:11577812] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:55:54.066 plugin-container[22883:11577812] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:55:54.077 plugin-container[22883:11577812] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:55:54.077 plugin-container[22883:11577812] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:55:54.078 plugin-container[22883:11577805] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:55:54.078 plugin-container[22883:11577805] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659002154241	Marionette	INFO	Marionette enabled
+1659002154287	Marionette	INFO	Listening on port 54993
+WebDriver BiDi listening on ws://localhost:54986
+Read port: 54993
+1659002154735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileJhFpOY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54986/devtools/browser/008e069a-9c65-4607-9dfb-aa08a576013a
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1659002157182	Marionette	INFO	Stopped listening on port 54993
+1659002300927	geckodriver	INFO	Listening on 127.0.0.1:55250
+1659002301447	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55251" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileEhzasU"
+2022-07-28 02:58:21.874 plugin-container[23409:11580598] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:58:21.875 plugin-container[23409:11580598] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659002301882	Marionette	INFO	Marionette enabled
+1659002301915	Marionette	INFO	Listening on port 55258
+2022-07-28 02:58:21.919 plugin-container[23409:11580598] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:58:21.919 plugin-container[23409:11580598] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:55251
+2022-07-28 02:58:21.919 plugin-container[23409:11580595] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:58:21.919 plugin-container[23409:11580595] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 55258
+1659002302054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileEhzasU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55251/devtools/browser/707d405b-0752-414d-8362-9d98fa3129d3
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1659002304376	Marionette	INFO	Stopped listening on port 55258
+1659002320442	geckodriver	INFO	Listening on 127.0.0.1:55309
+1659002320969	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55310" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileWX81W4"
+1659002321497	Marionette	INFO	Marionette enabled
+2022-07-28 02:58:41.515 plugin-container[23481:11581218] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:58:41.516 plugin-container[23481:11581218] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:58:41.525 plugin-container[23481:11581218] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:58:41.525 plugin-container[23481:11581218] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 02:58:41.527 plugin-container[23481:11581243] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 02:58:41.527 plugin-container[23481:11581243] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659002321552	Marionette	INFO	Listening on port 55317
+WebDriver BiDi listening on ws://localhost:55310
+Read port: 55317
+1659002321969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5s/llj_cp352g70jnzfr26y1mkc0000gn/T/rust_mozprofileWX81W4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55310/devtools/browser/c977f62e-347e-4903-8716-d531212cca7f
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1659002324308	Marionette	INFO	Stopped listening on port 55317
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks

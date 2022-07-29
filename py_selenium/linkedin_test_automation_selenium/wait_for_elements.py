@@ -26,9 +26,9 @@ from selenium.webdriver.support import expected_conditions as EC
 # (selenium.webdriver.support.expected_conditions)
 
 # samples of expected conditions
-expected_conditions.title_is('some title')
-expected_conditions.url_to_be('https://some.url.com')
-expected_conditions.presence_of_element_located(By,CSS_SELECTOR, '#foo'))
+# expected_conditions.title_is('some title')
+# expected_conditions.url_to_be('https://some.url.com')
+# expected_conditions.presence_of_element_located(By,CSS_SELECTOR, '#foo'))
 
 
 
@@ -48,7 +48,7 @@ try:
 # throws a TimeoutException
 # TODO: Can a TimeoutException be logged in loguru or pytest
 #    wait.until(EC.url_to_be('https://the-internet.herokuapp.com'))
-#    print(driver.current_url)
+    print(driver.current_url)
     wait.until(EC.url_to_be('https://the-internet.herokuapp.com/'))
 finally:
     driver.quit()

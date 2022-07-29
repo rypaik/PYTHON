@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 # By.PARTIAL_LINK_TEXT  #USED FOR LINKS WITH DYNAMICALLY GENEREATED INFO IN LINK
 # By.XPATH
 
-# ELEMNT SELECTORS
+# ELEMENT SELECTORS
 
 
 driver = webdriver.Firefox()
@@ -21,6 +21,8 @@ try:
 
     
     els = driver.find_elements(By.TAG_NAME, 'a')
+    for el in els:
+        print(f"{el}") # returns selenium webElement address
     print(f'There were {len(els)} anchor elements')
 
     els = driver.find_elements(By.TAG_NAME, 'foo')
